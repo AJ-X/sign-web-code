@@ -1,0 +1,77 @@
+<!doctype html>
+<html class="no-js">
+<head>
+<meta charset="utf-8">
+<title>售后申请列表</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="renderer" content="webkit">
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<meta name="apple-mobile-web-app-title" content="Amaze UI" />
+<link rel="stylesheet" href="__ROOT__/Public/index/assets/css/amazeui.min.css"/>
+<link rel="stylesheet" href="__ROOT__/Public/index/assets/css/admin.css">
+<script src="__ROOT__/Public/index/assets/js/jquery.min.js"></script>
+<script src="__ROOT__/Public/index/assets/js/app.js"></script>
+</head>
+<body>
+</head>
+
+<body>
+<include file="Common:head"/>
+
+<div class="am-cf admin-main"> 
+
+<include file="Common:left"/>
+<div class="admin-biaogelist">
+
+    <div class="listbiaoti am-cf">
+      <ul class="am-icon-volume-up">售后信息管理</ul>
+      
+      <dl class="am-icon-home" style="float: right;"> 当前位置： 售后申请列表 > <a href="{:U('index/main')}">首页</a></dl>
+    </div>
+
+    <form class="am-form am-g" action="{:U('shenqingliebiao')}" method="post">
+          <table width="100%" class="am-table am-table-bordered am-table-radius am-table-striped">
+            <thead>
+              <tr class="am-success">
+                <th class="table-title">用户名</th>
+                <th class="table-type">订单名称</th>
+                <th class="table-date am-hide-sm-only">申请信息</th>
+                <th class="table-date am-hide-sm-only">申请时间</th>
+                <th width="163px" class="table-set">操作</th>
+              </tr>
+            </thead>
+            <tbody>
+            <volist name="re" id="er">
+             <tr>
+                <td>{$er.uid}</td>
+                <td>{$er.name}</td>
+                <td class="am-hide-sm-only">{$er.message}</td>
+                <td class="am-hide-sm-only">{$er.time|date="Y-m-d H:i:s",###}</td>
+                <td><div class="am-btn-toolbar">
+                    <div class="am-btn-group am-btn-group-xs">
+                      <a href="{:U('xiugaijindu',array('id'=>$er['id']))}"><button name="{$er.id}" type="button" title="修改申请进度" class="am-btn am-btn-default am-btn-xs am-text-success am-round"><span class="am-icon-pencil-square-o"></span> </button></a>
+                    </div>
+                  </div></td>
+              </tr>
+            </volist>            
+            </tbody>
+          </table>
+          <div class="am-btn-group am-btn-group-xs">
+            </div>
+        <hr />
+          <p>
+        备注：操作图标含义
+         <a class="am-text-success am-icon-file" title="修改申请进度"> 修改申请进度</a> 
+        </p>
+        </form>
+ 
+<div class="foods">
+      <ul>标记后台管理系统</ul>
+      <dl><a href="" title="返回头部" class="am-icon-btn am-icon-arrow-up"></a></dl>    
+    </div>
+</div>
+</div>
+</div>
+</body>
+<script src="__ROOT__/Public/index/assets/js/amazeui.min.js"></script>
+</html>

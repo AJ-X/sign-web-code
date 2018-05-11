@@ -1,0 +1,1783 @@
+[ 2018-05-03T22:03:45+08:00 ] ::1 /sign/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013811s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.031682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.031747s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.145992s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.146088s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.011987s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012068s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.016055s ]
+INFO: [ app_end ] --END-- [ RunTime:0.016124s ]
+
+[ 2018-05-03T22:03:55+08:00 ] ::1 /sign/index.php/Home/index/adminlogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000189s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001484s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000591s ]
+SQL: SELECT * FROM `sign_admin` WHERE `username` = 'admin' AND `password` = 'admin' LIMIT 1   [ RunTime:1.3283s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.088431s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.088670s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000622s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000718s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000922s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001007s ]
+
+[ 2018-05-03T22:03:57+08:00 ] ::1 /sign/index.php/Home/index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000982s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000943s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.394978s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.395073s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000637s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000770s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000833s ]
+
+[ 2018-05-03T22:04:01+08:00 ] ::1 /sign/index.php/Home/Index/haocailiebiao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000568s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000912s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000996s ]
+SQL: SELECT * FROM `sign_material`  [ RunTime:0.0279s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.090151s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.090234s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000950s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001133s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001203s ]
+
+[ 2018-05-03T22:04:03+08:00 ] ::1 /sign/index.php/Home/Index/tianjiahaocai.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000609s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.499562s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.499654s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000526s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000588s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000761s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000824s ]
+
+[ 2018-05-03T22:04:06+08:00 ] ::1 /sign/index.php/Home/Index/yonghuliebiao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000637s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000857s ]
+SQL: SELECT * FROM `sign_user`  [ RunTime:0.0277s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069940s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000770s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000838s ]
+
+[ 2018-05-03T22:16:07+08:00 ] ::1 /sign/index.php/Home/Index/yonghuliebiao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000988s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001719s ]
+SQL: SELECT * FROM `sign_user`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018068s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001204s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001241s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001527s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001580s ]
+
+[ 2018-05-03T22:16:10+08:00 ] ::1 /sign/index.php/Home/Index/shouhuoliebiao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001019s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002086s ]
+SQL: SELECT * FROM `sign_address`  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sign_address` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.083346s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.083411s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001176s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001213s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002181s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002253s ]
+
+[ 2018-05-03T22:16:12+08:00 ] ::1 /sign/index.php/Home/Index/yonghuliebiao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000865s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001465s ]
+SQL: SELECT * FROM `sign_user`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018839s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018922s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001799s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001865s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002194s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002265s ]
+
+[ 2018-05-03T22:17:03+08:00 ] ::1 /sign/index.php/Home/Index/yonghuliebiao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000684s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001627s ]
+SQL: SELECT * FROM `sign_user`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000374s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000642s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020246s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020331s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001294s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002153s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002231s ]
+
+[ 2018-05-03T22:17:05+08:00 ] ::1 /sign/index.php/Home/Index/yonghuliebiao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001453s ]
+SQL: SELECT * FROM `sign_user`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018826s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018904s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001766s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001825s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002255s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002334s ]
+
+[ 2018-05-03T22:17:18+08:00 ] ::1 /sign/index.php/Home/Index/yonghuliebiao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000673s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001463s ]
+SQL: SELECT * FROM `sign_user`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022155s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022226s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001247s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001287s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001800s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001863s ]
+
+[ 2018-05-03T22:17:19+08:00 ] ::1 /sign/index.php/Home/Index/yonghuliebiao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000667s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001460s ]
+SQL: SELECT * FROM `sign_user`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000237s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023196s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023286s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001297s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001344s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002161s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002232s ]
+
+[ 2018-05-03T22:17:42+08:00 ] ::1 /sign/index.php/Home/Index/yonghuliebiao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001304s ]
+SQL: SELECT * FROM `sign_user`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015765s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015820s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001210s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001244s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001481s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001532s ]
+
+[ 2018-05-03T22:17:43+08:00 ] ::1 /sign/index.php/Home/Index/yonghuliebiao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000681s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001391s ]
+SQL: SELECT * FROM `sign_user`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016078s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016149s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001303s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001342s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001451s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001501s ]
+
+[ 2018-05-03T22:18:37+08:00 ] ::1 /sign/index.php/Home/Index/yonghuliebiao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000986s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003155s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003239s ]
+SQL: SELECT * FROM `sign_user`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000219s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020615s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020688s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002138s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002181s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003769s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003843s ]
+
+[ 2018-05-03T22:18:40+08:00 ] ::1 /sign/index.php/Home/Index/shouhuoliebiao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000774s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002717s ]
+SQL: SELECT * FROM `sign_address`  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sign_address` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018562s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018629s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001935s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001975s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002353s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002406s ]
+
+[ 2018-05-03T22:18:42+08:00 ] ::1 /sign/index.php/Home/Index/yonghuliebiao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000847s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002447s ]
+SQL: SELECT * FROM `sign_user`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025392s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025487s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003097s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003162s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005851s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005937s ]
+
+[ 2018-05-03T22:18:49+08:00 ] ::1 /sign/index.php/Home/Index/yonghuliebiao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000804s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002830s ]
+SQL: SELECT * FROM `sign_user`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018754s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018817s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002396s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002449s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004279s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004369s ]
+
+[ 2018-05-03T22:19:36+08:00 ] ::1 /sign/index.php/Home/Index/yonghuliebiao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001337s ]
+SQL: SELECT * FROM `sign_user`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043096s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043164s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002121s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002176s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002216s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002338s ]
+
+[ 2018-05-03T22:19:38+08:00 ] ::1 /sign/index.php/Home/Index/yonghuliebiao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001424s ]
+SQL: SELECT * FROM `sign_user`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020981s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021065s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001900s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001955s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002153s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002226s ]
+
+[ 2018-05-03T22:19:39+08:00 ] ::1 /sign/index.php/Home/Index/yonghuliebiao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001447s ]
+SQL: SELECT * FROM `sign_user`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023036s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023115s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001914s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001975s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002373s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002457s ]
+
+[ 2018-05-03T22:19:40+08:00 ] ::1 /sign/index.php/Home/Index/yonghuliebiao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001309s ]
+SQL: SELECT * FROM `sign_user`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016632s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016696s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001386s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001438s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002888s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002964s ]
+
+[ 2018-05-03T22:19:41+08:00 ] ::1 /sign/index.php/Home/Index/yonghuliebiao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001694s ]
+SQL: SELECT * FROM `sign_user`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016956s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017018s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001271s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001311s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001554s ]
+
+[ 2018-05-03T22:19:41+08:00 ] ::1 /sign/index.php/Home/Index/yonghuliebiao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000110s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000992s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001484s ]
+SQL: SELECT * FROM `sign_user`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019830s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019891s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001130s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001168s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002168s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002250s ]
+
+[ 2018-05-03T22:19:42+08:00 ] ::1 /sign/index.php/Home/Index/yonghuliebiao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001312s ]
+SQL: SELECT * FROM `sign_user`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017148s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017268s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003157s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003234s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003738s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004018s ]
+
+[ 2018-05-03T22:19:42+08:00 ] ::1 /sign/index.php/Home/Index/yonghuliebiao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001643s ]
+SQL: SELECT * FROM `sign_user`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017077s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001345s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001391s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002171s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002243s ]
+
+[ 2018-05-03T22:19:47+08:00 ] ::1 /sign/index.php/Home/Index/yonghuliebiao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000793s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001451s ]
+SQL: SELECT * FROM `sign_user`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019171s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019257s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001828s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001908s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002312s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002410s ]
+
+[ 2018-05-03T22:19:48+08:00 ] ::1 /sign/index.php/Home/Index/yonghuliebiao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000678s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001454s ]
+SQL: SELECT * FROM `sign_user`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021482s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021576s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001927s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001993s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002252s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002333s ]
+
+[ 2018-05-03T22:21:35+08:00 ] ::1 /sign/index.php/Home/Index/yonghuliebiao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001330s ]
+SQL: SELECT * FROM `sign_user`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015722s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015786s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001069s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001108s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003131s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003224s ]
+
+[ 2018-05-03T22:22:56+08:00 ] ::1 /sign/index.php/Home/number/number/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000663s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001448s ]
+SQL: SELECT * FROM `sign_order`  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sign_order` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sign_experience` [ RunTime:0.0158s ]
+SQL: UPDATE `sign_experience` SET `number`='500' WHERE ( id=1 ) [ RunTime:0.0870s ]
+SQL: UPDATE `sign_user` SET `number`='500' WHERE ( id=1 ) [ RunTime:0.0545s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_user` SET `grade`='2' WHERE ( id=1 ) [ RunTime:0.0656s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_experience` SET `number`='600' WHERE ( id=2 ) [ RunTime:0.0773s ]
+SQL: UPDATE `sign_user` SET `number`='600' WHERE ( id=2 ) [ RunTime:0.0437s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_user` SET `grade`='3' WHERE ( id=2 ) [ RunTime:0.0777s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=5 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `sign_experience` SET `number`='100' WHERE ( id=5 ) [ RunTime:0.0002s ]
+SQL: UPDATE `sign_user` SET `number`='100' WHERE ( id=5 ) [ RunTime:0.0869s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `sign_user` SET `grade`='1' WHERE ( id=5 ) [ RunTime:0.0444s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `sign_experience` SET `number`='500' WHERE ( id=1 ) [ RunTime:0.0539s ]
+SQL: UPDATE `sign_user` SET `number`='500' WHERE ( id=1 ) [ RunTime:0.0668s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_user` SET `grade`='2' WHERE ( id=1 ) [ RunTime:0.0985s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `sign_experience` SET `number`='600' WHERE ( id=2 ) [ RunTime:0.1991s ]
+SQL: UPDATE `sign_user` SET `number`='600' WHERE ( id=2 ) [ RunTime:0.0880s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `sign_user` SET `grade`='3' WHERE ( id=2 ) [ RunTime:0.0779s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001567s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001617s ]
+
+[ 2018-05-03T22:39:52+08:00 ] ::1 /sign/index.php/Home/number/number/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001306s ]
+SQL: SELECT * FROM `sign_order`  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sign_order` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `sign_experience` SET `number`='500' WHERE ( id=1 ) [ RunTime:0.1021s ]
+SQL: UPDATE `sign_user` SET `number`='500' WHERE ( id=1 ) [ RunTime:0.0530s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_user` SET `grade`='2' WHERE ( id=1 ) [ RunTime:0.0779s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `sign_experience` SET `number`='600' WHERE ( id=2 ) [ RunTime:0.0534s ]
+SQL: UPDATE `sign_user` SET `number`='600' WHERE ( id=2 ) [ RunTime:0.0449s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `sign_user` SET `grade`='3' WHERE ( id=2 ) [ RunTime:0.1199s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=5 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_experience` SET `number`='100' WHERE ( id=5 ) [ RunTime:0.0002s ]
+SQL: UPDATE `sign_user` SET `number`='100' WHERE ( id=5 ) [ RunTime:0.2106s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: UPDATE `sign_user` SET `grade`='1' WHERE ( id=5 ) [ RunTime:0.1307s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `sign_experience` SET `number`='500' WHERE ( id=1 ) [ RunTime:0.0874s ]
+SQL: UPDATE `sign_user` SET `number`='500' WHERE ( id=1 ) [ RunTime:0.0546s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `sign_user` SET `grade`='2' WHERE ( id=1 ) [ RunTime:0.0775s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_experience` SET `number`='600' WHERE ( id=2 ) [ RunTime:0.0539s ]
+SQL: UPDATE `sign_user` SET `number`='600' WHERE ( id=2 ) [ RunTime:0.0894s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `sign_user` SET `grade`='3' WHERE ( id=2 ) [ RunTime:0.0762s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001537s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001584s ]
+
+[ 2018-05-03T22:40:37+08:00 ] ::1 /sign/index.php/Home/number/number/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000577s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001292s ]
+SQL: SELECT * FROM `sign_order`  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sign_order` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `sign_experience` SET `number`='500' WHERE ( id=1 ) [ RunTime:0.0734s ]
+SQL: UPDATE `sign_user` SET `number`='500' WHERE ( id=1 ) [ RunTime:0.0755s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_user` SET `grade`='2' WHERE ( id=1 ) [ RunTime:0.0446s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `sign_experience` SET `number`='600' WHERE ( id=2 ) [ RunTime:0.0544s ]
+SQL: UPDATE `sign_user` SET `number`='600' WHERE ( id=2 ) [ RunTime:0.0778s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_user` SET `grade`='3' WHERE ( id=2 ) [ RunTime:0.0765s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=5 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `sign_experience` SET `number`='100' WHERE ( id=5 ) [ RunTime:0.0002s ]
+SQL: UPDATE `sign_user` SET `number`='100' WHERE ( id=5 ) [ RunTime:0.0546s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_user` SET `grade`='1' WHERE ( id=5 ) [ RunTime:0.0431s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `sign_experience` SET `number`='500' WHERE ( id=1 ) [ RunTime:0.0439s ]
+SQL: UPDATE `sign_user` SET `number`='500' WHERE ( id=1 ) [ RunTime:0.0435s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_user` SET `grade`='2' WHERE ( id=1 ) [ RunTime:0.0444s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `sign_experience` SET `number`='600' WHERE ( id=2 ) [ RunTime:0.0538s ]
+SQL: UPDATE `sign_user` SET `number`='600' WHERE ( id=2 ) [ RunTime:0.0447s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_user` SET `grade`='3' WHERE ( id=2 ) [ RunTime:0.0431s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001456s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001501s ]
+
+[ 2018-05-03T22:42:07+08:00 ] ::1 /sign/index.php/Home/number/number/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001360s ]
+SQL: SELECT * FROM `sign_order`  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sign_order` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `sign_experience` SET `number`='500' WHERE ( id=1 ) [ RunTime:0.1138s ]
+SQL: UPDATE `sign_user` SET `number`='500' WHERE ( id=1 ) [ RunTime:0.0534s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_user` SET `grade`='2' WHERE ( id=1 ) [ RunTime:0.0445s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `sign_experience` SET `number`='600' WHERE ( id=2 ) [ RunTime:0.0763s ]
+SQL: UPDATE `sign_user` SET `number`='600' WHERE ( id=2 ) [ RunTime:0.0448s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_user` SET `grade`='3' WHERE ( id=2 ) [ RunTime:0.0433s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=5 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `sign_experience` SET `number`='100' WHERE ( id=5 ) [ RunTime:0.0002s ]
+SQL: UPDATE `sign_user` SET `number`='100' WHERE ( id=5 ) [ RunTime:0.0436s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `sign_user` SET `grade`='1' WHERE ( id=5 ) [ RunTime:0.0431s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `sign_experience` SET `number`='500' WHERE ( id=1 ) [ RunTime:0.0662s ]
+SQL: UPDATE `sign_user` SET `number`='500' WHERE ( id=1 ) [ RunTime:0.0768s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_user` SET `grade`='2' WHERE ( id=1 ) [ RunTime:0.0443s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_experience` SET `number`='600' WHERE ( id=2 ) [ RunTime:0.0537s ]
+SQL: UPDATE `sign_user` SET `number`='600' WHERE ( id=2 ) [ RunTime:0.0447s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_user` SET `grade`='3' WHERE ( id=2 ) [ RunTime:0.0431s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001579s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001623s ]
+
+[ 2018-05-03T22:42:45+08:00 ] ::1 /sign/index.php/Home/number/number/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000765s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003657s ]
+SQL: SELECT * FROM `sign_order`  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sign_order` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `sign_experience` SET `number`='500' WHERE ( id=1 ) [ RunTime:0.0804s ]
+SQL: UPDATE `sign_user` SET `number`='500' WHERE ( id=1 ) [ RunTime:0.0421s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `sign_user` SET `grade`='2' WHERE ( id=1 ) [ RunTime:0.0556s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `sign_experience` SET `number`='600' WHERE ( id=2 ) [ RunTime:0.0431s ]
+SQL: UPDATE `sign_user` SET `number`='600' WHERE ( id=2 ) [ RunTime:0.0449s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_user` SET `grade`='3' WHERE ( id=2 ) [ RunTime:0.0432s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=5 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `sign_experience` SET `number`='100' WHERE ( id=5 ) [ RunTime:0.0002s ]
+SQL: UPDATE `sign_user` SET `number`='100' WHERE ( id=5 ) [ RunTime:0.0438s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `sign_user` SET `grade`='1' WHERE ( id=5 ) [ RunTime:0.0541s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `sign_experience` SET `number`='500' WHERE ( id=1 ) [ RunTime:0.0441s ]
+SQL: UPDATE `sign_user` SET `number`='500' WHERE ( id=1 ) [ RunTime:0.0436s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_user` SET `grade`='2' WHERE ( id=1 ) [ RunTime:0.0444s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_experience` SET `number`='600' WHERE ( id=2 ) [ RunTime:0.0758s ]
+SQL: UPDATE `sign_user` SET `number`='600' WHERE ( id=2 ) [ RunTime:0.0779s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_user` SET `grade`='3' WHERE ( id=2 ) [ RunTime:0.0763s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001428s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001474s ]
+
+[ 2018-05-03T22:43:35+08:00 ] ::1 /sign/index.php/Home/number/number/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000698s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001930s ]
+SQL: SELECT * FROM `sign_order`  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sign_order` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `sign_experience` SET `number`='500' WHERE ( id=1 ) [ RunTime:0.0834s ]
+SQL: UPDATE `sign_user` SET `number`='500' WHERE ( id=1 ) [ RunTime:0.0761s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_user` SET `grade`='2' WHERE ( id=1 ) [ RunTime:0.0435s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=2 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `sign_experience` SET `number`='600' WHERE ( id=2 ) [ RunTime:0.0436s ]
+SQL: UPDATE `sign_user` SET `number`='600' WHERE ( id=2 ) [ RunTime:0.0438s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_user` SET `grade`='3' WHERE ( id=2 ) [ RunTime:0.0447s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=5 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `sign_experience` SET `number`='100' WHERE ( id=5 ) [ RunTime:0.0002s ]
+SQL: UPDATE `sign_user` SET `number`='100' WHERE ( id=5 ) [ RunTime:0.1093s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `sign_user` SET `grade`='1' WHERE ( id=5 ) [ RunTime:0.0446s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_experience` SET `number`='500' WHERE ( id=1 ) [ RunTime:0.0540s ]
+SQL: UPDATE `sign_user` SET `number`='500' WHERE ( id=1 ) [ RunTime:0.0671s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `sign_user` SET `grade`='2' WHERE ( id=1 ) [ RunTime:0.0433s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `sign_experience` SET `number`='600' WHERE ( id=2 ) [ RunTime:0.0441s ]
+SQL: UPDATE `sign_user` SET `number`='600' WHERE ( id=2 ) [ RunTime:0.0436s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `sign_user` SET `grade`='3' WHERE ( id=2 ) [ RunTime:0.0441s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001543s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001596s ]
+
+[ 2018-05-03T22:44:25+08:00 ] ::1 /sign/index.php/Home/number/number?id=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000701s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001362s ]
+SQL: SELECT * FROM `sign_order`  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sign_order` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `sign_experience` SET `number`='500' WHERE ( id=1 ) [ RunTime:0.0992s ]
+SQL: UPDATE `sign_user` SET `number`='500' WHERE ( id=1 ) [ RunTime:0.0535s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_user` SET `grade`='2' WHERE ( id=1 ) [ RunTime:0.0446s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `sign_experience` SET `number`='600' WHERE ( id=2 ) [ RunTime:0.0764s ]
+SQL: UPDATE `sign_user` SET `number`='600' WHERE ( id=2 ) [ RunTime:0.1667s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_user` SET `grade`='3' WHERE ( id=2 ) [ RunTime:0.0667s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=5 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `sign_experience` SET `number`='100' WHERE ( id=5 ) [ RunTime:0.0002s ]
+SQL: UPDATE `sign_user` SET `number`='100' WHERE ( id=5 ) [ RunTime:0.0536s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_user` SET `grade`='1' WHERE ( id=5 ) [ RunTime:0.0777s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `sign_experience` SET `number`='500' WHERE ( id=1 ) [ RunTime:0.0538s ]
+SQL: UPDATE `sign_user` SET `number`='500' WHERE ( id=1 ) [ RunTime:0.0447s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_user` SET `grade`='2' WHERE ( id=1 ) [ RunTime:0.0432s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `sign_experience` SET `number`='600' WHERE ( id=2 ) [ RunTime:0.0439s ]
+SQL: UPDATE `sign_user` SET `number`='600' WHERE ( id=2 ) [ RunTime:0.0435s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_user` SET `grade`='3' WHERE ( id=2 ) [ RunTime:0.0443s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001567s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001622s ]
+
+[ 2018-05-03T22:44:40+08:00 ] ::1 /sign/index.php/Home/number/number?uid=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001171s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001225s ]
+SQL: SELECT * FROM `sign_order`  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sign_order` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `sign_experience` SET `number`='500' WHERE ( id=1 ) [ RunTime:0.0707s ]
+SQL: UPDATE `sign_user` SET `number`='500' WHERE ( id=1 ) [ RunTime:0.0437s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_user` SET `grade`='2' WHERE ( id=1 ) [ RunTime:0.0878s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `sign_experience` SET `number`='600' WHERE ( id=2 ) [ RunTime:0.0441s ]
+SQL: UPDATE `sign_user` SET `number`='600' WHERE ( id=2 ) [ RunTime:0.1103s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_user` SET `grade`='3' WHERE ( id=2 ) [ RunTime:0.1256s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=5 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `sign_experience` SET `number`='100' WHERE ( id=5 ) [ RunTime:0.0003s ]
+SQL: UPDATE `sign_user` SET `number`='100' WHERE ( id=5 ) [ RunTime:0.1507s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_user` SET `grade`='1' WHERE ( id=5 ) [ RunTime:0.1206s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `sign_experience` SET `number`='500' WHERE ( id=1 ) [ RunTime:0.1536s ]
+SQL: UPDATE `sign_user` SET `number`='500' WHERE ( id=1 ) [ RunTime:0.0447s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_user` SET `grade`='2' WHERE ( id=1 ) [ RunTime:0.0434s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `sign_experience` SET `number`='600' WHERE ( id=2 ) [ RunTime:0.0439s ]
+SQL: UPDATE `sign_user` SET `number`='600' WHERE ( id=2 ) [ RunTime:0.0435s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `sign_user` SET `grade`='3' WHERE ( id=2 ) [ RunTime:0.0447s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002025s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002097s ]
+
+[ 2018-05-03T22:44:48+08:00 ] ::1 /sign/index.php/Home/number/number/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002148s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001171s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001224s ]
+SQL: SELECT * FROM `sign_order`  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sign_order` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `sign_experience` SET `number`='500' WHERE ( id=1 ) [ RunTime:0.1009s ]
+SQL: UPDATE `sign_user` SET `number`='500' WHERE ( id=1 ) [ RunTime:0.0323s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_user` SET `grade`='2' WHERE ( id=1 ) [ RunTime:0.0433s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `sign_experience` SET `number`='600' WHERE ( id=2 ) [ RunTime:0.0441s ]
+SQL: UPDATE `sign_user` SET `number`='600' WHERE ( id=2 ) [ RunTime:0.0437s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_user` SET `grade`='3' WHERE ( id=2 ) [ RunTime:0.0445s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=5 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `sign_experience` SET `number`='100' WHERE ( id=5 ) [ RunTime:0.0002s ]
+SQL: UPDATE `sign_user` SET `number`='100' WHERE ( id=5 ) [ RunTime:0.0536s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_user` SET `grade`='1' WHERE ( id=5 ) [ RunTime:0.0777s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `sign_experience` SET `number`='500' WHERE ( id=1 ) [ RunTime:0.0539s ]
+SQL: UPDATE `sign_user` SET `number`='500' WHERE ( id=1 ) [ RunTime:0.0448s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_user` SET `grade`='2' WHERE ( id=1 ) [ RunTime:0.0431s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_experience` SET `number`='600' WHERE ( id=2 ) [ RunTime:0.0437s ]
+SQL: UPDATE `sign_user` SET `number`='600' WHERE ( id=2 ) [ RunTime:0.0435s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_user` SET `grade`='3' WHERE ( id=2 ) [ RunTime:0.0443s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001752s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001804s ]
+
+[ 2018-05-03T22:45:50+08:00 ] ::1 /sign/index.php/Home/number/number/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000563s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002864s ]
+SQL: SELECT * FROM `sign_order`  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sign_order` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\xampp\htdocs\sign\ThinkPHP\Library\Think\Model.class.php 第 267 行.
+NOTIC: [2] Illegal string offset 'table' E:\xampp\htdocs\sign\ThinkPHP\Library\Think\Model.class.php 第 633 行.
+NOTIC: [2] Illegal string offset 'model' E:\xampp\htdocs\sign\ThinkPHP\Library\Think\Model.class.php 第 645 行.
+SQL: UPDATE `sign_user` SET `number`='500' WHERE ( id=1 ) [ RunTime:0.0993s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_user` SET `grade`='2' WHERE ( id=1 ) [ RunTime:0.0432s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=2 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\xampp\htdocs\sign\ThinkPHP\Library\Think\Model.class.php 第 267 行.
+NOTIC: [2] Illegal string offset 'table' E:\xampp\htdocs\sign\ThinkPHP\Library\Think\Model.class.php 第 633 行.
+NOTIC: [2] Illegal string offset 'model' E:\xampp\htdocs\sign\ThinkPHP\Library\Think\Model.class.php 第 645 行.
+SQL: UPDATE `sign_user` SET `number`='600' WHERE ( id=2 ) [ RunTime:0.0437s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_user` SET `grade`='3' WHERE ( id=2 ) [ RunTime:0.0430s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=5 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\xampp\htdocs\sign\ThinkPHP\Library\Think\Model.class.php 第 267 行.
+NOTIC: [2] Illegal string offset 'table' E:\xampp\htdocs\sign\ThinkPHP\Library\Think\Model.class.php 第 633 行.
+NOTIC: [2] Illegal string offset 'model' E:\xampp\htdocs\sign\ThinkPHP\Library\Think\Model.class.php 第 645 行.
+SQL: UPDATE `sign_user` SET `number`='100' WHERE ( id=5 ) [ RunTime:0.0440s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_user` SET `grade`='1' WHERE ( id=5 ) [ RunTime:0.0432s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\xampp\htdocs\sign\ThinkPHP\Library\Think\Model.class.php 第 267 行.
+NOTIC: [2] Illegal string offset 'table' E:\xampp\htdocs\sign\ThinkPHP\Library\Think\Model.class.php 第 633 行.
+NOTIC: [2] Illegal string offset 'model' E:\xampp\htdocs\sign\ThinkPHP\Library\Think\Model.class.php 第 645 行.
+SQL: UPDATE `sign_user` SET `number`='500' WHERE ( id=1 ) [ RunTime:0.0437s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_user` SET `grade`='2' WHERE ( id=1 ) [ RunTime:0.1215s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=2 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\xampp\htdocs\sign\ThinkPHP\Library\Think\Model.class.php 第 267 行.
+NOTIC: [2] Illegal string offset 'table' E:\xampp\htdocs\sign\ThinkPHP\Library\Think\Model.class.php 第 633 行.
+NOTIC: [2] Illegal string offset 'model' E:\xampp\htdocs\sign\ThinkPHP\Library\Think\Model.class.php 第 645 行.
+SQL: UPDATE `sign_user` SET `number`='600' WHERE ( id=2 ) [ RunTime:0.0655s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_user` SET `grade`='3' WHERE ( id=2 ) [ RunTime:0.0432s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001362s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001406s ]
+
+[ 2018-05-03T22:46:37+08:00 ] ::1 /sign/index.php/Home/number/number/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002002s ]
+SQL: SELECT * FROM `sign_order`  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sign_order` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\xampp\htdocs\sign\ThinkPHP\Library\Think\Model.class.php 第 267 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\xampp\htdocs\sign\ThinkPHP\Library\Think\Db\Driver.class.php 第 372 行.
+NOTIC: [8] Undefined variable: set E:\xampp\htdocs\sign\ThinkPHP\Library\Think\Db\Driver.class.php 第 387 行.
+NOTIC: [2] implode(): Invalid arguments passed E:\xampp\htdocs\sign\ThinkPHP\Library\Think\Db\Driver.class.php 第 387 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE ( id=1 )' at line 1
+ [ SQL语句 ] : UPDATE `sign_experience` SET  WHERE ( id=1 )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE ( id=1 )' at line 1
+ [ SQL语句 ] : UPDATE `sign_experience` SET  WHERE ( id=1 )
+
+[ 2018-05-03T22:48:24+08:00 ] ::1 /sign/index.php/Home/number/number/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000753s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001144s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001230s ]
+SQL: SELECT * FROM `sign_order`  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sign_order` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `sign_experience` SET `number`='500' WHERE ( id=1 ) [ RunTime:0.0703s ]
+SQL: UPDATE `sign_user` SET `number`='500' WHERE ( id=1 ) [ RunTime:0.0538s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `sign_user` SET `grade`='2' WHERE ( id=1 ) [ RunTime:0.0434s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `sign_experience` SET `number`='600' WHERE ( id=2 ) [ RunTime:0.0441s ]
+SQL: UPDATE `sign_user` SET `number`='600' WHERE ( id=2 ) [ RunTime:0.0437s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `sign_user` SET `grade`='3' WHERE ( id=2 ) [ RunTime:0.0447s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=5 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `sign_experience` SET `number`='100' WHERE ( id=5 ) [ RunTime:0.0002s ]
+SQL: UPDATE `sign_user` SET `number`='100' WHERE ( id=5 ) [ RunTime:0.0536s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_user` SET `grade`='1' WHERE ( id=5 ) [ RunTime:0.0446s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `sign_experience` SET `number`='500' WHERE ( id=1 ) [ RunTime:0.0430s ]
+SQL: UPDATE `sign_user` SET `number`='500' WHERE ( id=1 ) [ RunTime:0.0450s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_user` SET `grade`='2' WHERE ( id=1 ) [ RunTime:0.0433s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `sign_experience` SET `number`='600' WHERE ( id=2 ) [ RunTime:0.0442s ]
+SQL: UPDATE `sign_user` SET `number`='600' WHERE ( id=2 ) [ RunTime:0.0438s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_user` SET `grade`='3' WHERE ( id=2 ) [ RunTime:0.0444s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001148s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001199s ]
+
+[ 2018-05-03T22:48:42+08:00 ] ::1 /sign/index.php/Home/number/number/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001377s ]
+SQL: SELECT * FROM `sign_order`  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sign_order` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `sign_experience` SET `number`='500' WHERE ( id=1 ) [ RunTime:0.1266s ]
+SQL: UPDATE `sign_user` SET `number`='500' WHERE ( id=1 ) [ RunTime:0.0533s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_user` SET `grade`='2' WHERE ( id=1 ) [ RunTime:0.0443s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `sign_experience` SET `number`='600' WHERE ( id=2 ) [ RunTime:0.0427s ]
+SQL: UPDATE `sign_user` SET `number`='600' WHERE ( id=2 ) [ RunTime:0.0447s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_user` SET `grade`='3' WHERE ( id=2 ) [ RunTime:0.0430s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=5 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_experience` SET `number`='100' WHERE ( id=5 ) [ RunTime:0.0002s ]
+SQL: UPDATE `sign_user` SET `number`='100' WHERE ( id=5 ) [ RunTime:0.0435s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_user` SET `grade`='1' WHERE ( id=5 ) [ RunTime:0.0431s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `sign_experience` SET `number`='500' WHERE ( id=1 ) [ RunTime:0.0439s ]
+SQL: UPDATE `sign_user` SET `number`='500' WHERE ( id=1 ) [ RunTime:0.0769s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_user` SET `grade`='2' WHERE ( id=1 ) [ RunTime:0.0775s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `sign_experience` SET `number`='600' WHERE ( id=2 ) [ RunTime:0.0428s ]
+SQL: UPDATE `sign_user` SET `number`='600' WHERE ( id=2 ) [ RunTime:0.0449s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `sign_user` SET `grade`='3' WHERE ( id=2 ) [ RunTime:0.0433s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001498s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001543s ]
+
+[ 2018-05-03T22:49:32+08:00 ] ::1 /sign/index.php/Home/number/number/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001160s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001213s ]
+SQL: SELECT * FROM `sign_order`  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sign_order` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `sign_experience` SET `number`='500' WHERE ( id=1 ) [ RunTime:0.0718s ]
+SQL: UPDATE `sign_user` SET `number`='500' WHERE ( id=1 ) [ RunTime:0.0532s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `sign_user` SET `grade`='2' WHERE ( id=1 ) [ RunTime:0.0443s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `sign_experience` SET `number`='600' WHERE ( id=2 ) [ RunTime:0.0429s ]
+SQL: UPDATE `sign_user` SET `number`='600' WHERE ( id=2 ) [ RunTime:0.0671s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `sign_user` SET `grade`='3' WHERE ( id=2 ) [ RunTime:0.0434s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=5 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `sign_experience` SET `number`='100' WHERE ( id=5 ) [ RunTime:0.0002s ]
+SQL: UPDATE `sign_user` SET `number`='100' WHERE ( id=5 ) [ RunTime:0.0661s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_user` SET `grade`='1' WHERE ( id=5 ) [ RunTime:0.0435s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `sign_experience` SET `number`='500' WHERE ( id=1 ) [ RunTime:0.0441s ]
+SQL: UPDATE `sign_user` SET `number`='500' WHERE ( id=1 ) [ RunTime:0.0438s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_user` SET `grade`='2' WHERE ( id=1 ) [ RunTime:0.0446s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_experience` SET `number`='600' WHERE ( id=2 ) [ RunTime:0.1882s ]
+SQL: UPDATE `sign_user` SET `number`='600' WHERE ( id=2 ) [ RunTime:0.0437s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_user` SET `grade`='3' WHERE ( id=2 ) [ RunTime:0.0444s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001459s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001503s ]
+
+[ 2018-05-03T22:51:23+08:00 ] ::1 /sign/index.php/Home/number/number/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000517s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001493s ]
+SQL: SELECT * FROM `sign_order`  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sign_order` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `sign_experience` SET `number`='500' WHERE ( id=1 ) [ RunTime:0.0783s ]
+SQL: UPDATE `sign_user` SET `number`='500' WHERE ( id=1 ) [ RunTime:0.0531s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_user` SET `grade`='2' WHERE ( id=1 ) [ RunTime:0.0435s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_experience` SET `number`='600' WHERE ( id=2 ) [ RunTime:0.0432s ]
+SQL: UPDATE `sign_user` SET `number`='600' WHERE ( id=2 ) [ RunTime:0.0436s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_user` SET `grade`='3' WHERE ( id=2 ) [ RunTime:0.0444s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=5 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `sign_experience` SET `number`='100' WHERE ( id=5 ) [ RunTime:0.0002s ]
+SQL: UPDATE `sign_user` SET `number`='100' WHERE ( id=5 ) [ RunTime:0.0532s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_user` SET `grade`='1' WHERE ( id=5 ) [ RunTime:0.0777s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `sign_experience` SET `number`='500' WHERE ( id=1 ) [ RunTime:0.0535s ]
+SQL: UPDATE `sign_user` SET `number`='500' WHERE ( id=1 ) [ RunTime:0.0450s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_user` SET `grade`='2' WHERE ( id=1 ) [ RunTime:0.0431s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `sign_experience` SET `number`='600' WHERE ( id=2 ) [ RunTime:0.0449s ]
+SQL: UPDATE `sign_user` SET `number`='600' WHERE ( id=2 ) [ RunTime:0.0429s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_user` SET `grade`='3' WHERE ( id=2 ) [ RunTime:0.0444s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001458s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001502s ]
+
+[ 2018-05-03T22:52:50+08:00 ] ::1 /sign/index.php/Home/number/number/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000789s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001948s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002038s ]
+SQL: SELECT * FROM `sign_order`  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sign_order` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `sign_experience` SET `number`='500' WHERE ( uid=1 ) [ RunTime:0.0754s ]
+SQL: UPDATE `sign_user` SET `number`='500' WHERE ( id=1 ) [ RunTime:0.0537s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `sign_user` SET `grade`='2' WHERE ( id=1 ) [ RunTime:0.0444s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_experience` SET `number`='600' WHERE ( uid=2 ) [ RunTime:0.0648s ]
+SQL: UPDATE `sign_user` SET `number`='600' WHERE ( id=2 ) [ RunTime:0.0336s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_user` SET `grade`='3' WHERE ( id=2 ) [ RunTime:0.0432s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=5 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_experience` SET `number`='100' WHERE ( uid=5 ) [ RunTime:0.1209s ]
+SQL: UPDATE `sign_user` SET `number`='100' WHERE ( id=5 ) [ RunTime:0.0552s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_user` SET `grade`='1' WHERE ( id=5 ) [ RunTime:0.0775s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `sign_experience` SET `number`='500' WHERE ( uid=1 ) [ RunTime:0.0431s ]
+SQL: UPDATE `sign_user` SET `number`='500' WHERE ( id=1 ) [ RunTime:0.0444s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_user` SET `grade`='2' WHERE ( id=1 ) [ RunTime:0.0430s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_experience` SET `number`='600' WHERE ( uid=2 ) [ RunTime:0.0439s ]
+SQL: UPDATE `sign_user` SET `number`='600' WHERE ( id=2 ) [ RunTime:0.0432s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_user` SET `grade`='3' WHERE ( id=2 ) [ RunTime:0.0442s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002068s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002151s ]
+
+[ 2018-05-03T22:52:54+08:00 ] ::1 /sign/index.php/Home/Index/yonghuliebiao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000847s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001314s ]
+SQL: SELECT * FROM `sign_user`  [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062967s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063046s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002108s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002170s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002135s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002222s ]
+
+[ 2018-05-03T22:53:42+08:00 ] ::1 /sign/index.php/Home/number/number/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001323s ]
+SQL: SELECT * FROM `sign_order`  [ RunTime:0.0129s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sign_order` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_experience` SET `number`='500' WHERE ( uid=1 ) [ RunTime:0.0445s ]
+SQL: UPDATE `sign_user` SET `number`='500' WHERE ( id=1 ) [ RunTime:0.0649s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_user` SET `grade`='2' WHERE ( id=1 ) [ RunTime:0.0431s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `sign_experience` SET `number`='600' WHERE ( uid=2 ) [ RunTime:0.0771s ]
+SQL: UPDATE `sign_user` SET `number`='600' WHERE ( id=2 ) [ RunTime:0.0435s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_user` SET `grade`='3' WHERE ( id=2 ) [ RunTime:0.0443s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=5 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `sign_experience` SET `number`='100' WHERE ( uid=5 ) [ RunTime:0.1209s ]
+SQL: UPDATE `sign_user` SET `number`='100' WHERE ( id=5 ) [ RunTime:0.0665s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_user` SET `grade`='1' WHERE ( id=5 ) [ RunTime:0.0433s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_experience` SET `number`='500' WHERE ( uid=1 ) [ RunTime:0.0439s ]
+SQL: UPDATE `sign_user` SET `number`='500' WHERE ( id=1 ) [ RunTime:0.0437s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_user` SET `grade`='2' WHERE ( id=1 ) [ RunTime:0.0445s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `sign_experience` SET `number`='600' WHERE ( uid=2 ) [ RunTime:0.0429s ]
+SQL: UPDATE `sign_user` SET `number`='600' WHERE ( id=2 ) [ RunTime:0.0451s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_user` SET `grade`='3' WHERE ( id=2 ) [ RunTime:0.0434s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001623s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001668s ]
+
+[ 2018-05-03T22:54:11+08:00 ] ::1 /sign/index.php/Home/number/number/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001256s ]
+SQL: SELECT * FROM `sign_order`  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sign_order` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `sign_experience` SET `number`='500' WHERE ( uid=1 ) [ RunTime:0.0745s ]
+SQL: UPDATE `sign_user` SET `number`='500' WHERE ( id=1 ) [ RunTime:0.0435s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_user` SET `grade`='2' WHERE ( id=1 ) [ RunTime:0.0433s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `sign_experience` SET `number`='600' WHERE ( uid=2 ) [ RunTime:0.0441s ]
+SQL: UPDATE `sign_user` SET `number`='600' WHERE ( id=2 ) [ RunTime:0.0438s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_user` SET `grade`='3' WHERE ( id=2 ) [ RunTime:0.0445s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=5 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `sign_experience` SET `number`='100' WHERE ( uid=5 ) [ RunTime:0.0430s ]
+SQL: UPDATE `sign_user` SET `number`='100' WHERE ( id=5 ) [ RunTime:0.0449s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `sign_user` SET `grade`='1' WHERE ( id=5 ) [ RunTime:0.0432s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `sign_experience` SET `number`='500' WHERE ( uid=1 ) [ RunTime:0.0441s ]
+SQL: UPDATE `sign_user` SET `number`='500' WHERE ( id=1 ) [ RunTime:0.0437s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `sign_user` SET `grade`='2' WHERE ( id=1 ) [ RunTime:0.0679s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `sign_experience` SET `number`='600' WHERE ( uid=2 ) [ RunTime:0.0303s ]
+SQL: UPDATE `sign_user` SET `number`='600' WHERE ( id=2 ) [ RunTime:0.0684s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_user` SET `grade`='3' WHERE ( id=2 ) [ RunTime:0.0308s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001651s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001703s ]
+
+[ 2018-05-03T23:01:24+08:00 ] ::1 /sign/index.php/Home/Index/yonghuliebiao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000544s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002384s ]
+SQL: SELECT * FROM `sign_user`  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016378s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016453s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001300s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001339s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001538s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001592s ]
+
+[ 2018-05-03T23:01:26+08:00 ] ::1 /sign/index.php/Home/Index/yonghuliebiao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000729s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001461s ]
+SQL: SELECT * FROM `sign_user`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018196s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018339s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001527s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001580s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002199s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002281s ]
+
+[ 2018-05-03T23:02:09+08:00 ] ::1 /sign/index.php/Home/number/number/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001354s ]
+SQL: SELECT * FROM `sign_order`  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sign_order` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `sign_experience` SET `number`='500' WHERE ( uid=1 ) [ RunTime:0.0957s ]
+SQL: UPDATE `sign_user` SET `number`='500' WHERE ( id=1 ) [ RunTime:0.0523s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_user` SET `grade`='2' WHERE ( id=1 ) [ RunTime:0.0446s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `sign_experience` SET `number`='600' WHERE ( uid=2 ) [ RunTime:0.0428s ]
+SQL: UPDATE `sign_user` SET `number`='600' WHERE ( id=2 ) [ RunTime:0.0448s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_user` SET `grade`='3' WHERE ( id=2 ) [ RunTime:0.0784s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=5 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `sign_experience` SET `number`='100' WHERE ( uid=5 ) [ RunTime:0.0309s ]
+SQL: UPDATE `sign_user` SET `number`='100' WHERE ( id=5 ) [ RunTime:0.0436s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_user` SET `grade`='1' WHERE ( id=5 ) [ RunTime:0.0443s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `sign_experience` SET `number`='500' WHERE ( uid=1 ) [ RunTime:0.0426s ]
+SQL: UPDATE `sign_user` SET `number`='500' WHERE ( id=1 ) [ RunTime:0.0447s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_user` SET `grade`='2' WHERE ( id=1 ) [ RunTime:0.0432s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `sign_experience` SET `number`='600' WHERE ( uid=2 ) [ RunTime:0.0439s ]
+SQL: UPDATE `sign_user` SET `number`='600' WHERE ( id=2 ) [ RunTime:0.0435s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_user` SET `grade`='3' WHERE ( id=2 ) [ RunTime:0.0679s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002045s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002096s ]
+
+[ 2018-05-03T23:02:32+08:00 ] ::1 /sign/index.php/Home/number/number/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001166s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001214s ]
+SQL: SELECT * FROM `sign_order`  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sign_order` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `sign_experience` SET `number`='500' WHERE ( uid=1 ) [ RunTime:0.1123s ]
+SQL: UPDATE `sign_user` SET `number`='500' WHERE ( id=1 ) [ RunTime:0.0763s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `sign_user` SET `grade`='2' WHERE ( id=1 ) [ RunTime:0.0309s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `sign_experience` SET `number`='600' WHERE ( uid=2 ) [ RunTime:0.0760s ]
+SQL: UPDATE `sign_user` SET `number`='600' WHERE ( id=2 ) [ RunTime:0.0447s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_user` SET `grade`='3' WHERE ( id=2 ) [ RunTime:0.0432s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=5 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `sign_experience` SET `number`='100' WHERE ( uid=5 ) [ RunTime:0.0439s ]
+SQL: UPDATE `sign_user` SET `number`='100' WHERE ( id=5 ) [ RunTime:0.1660s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_user` SET `grade`='1' WHERE ( id=5 ) [ RunTime:0.0446s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `sign_experience` SET `number`='500' WHERE ( uid=1 ) [ RunTime:0.0784s ]
+SQL: UPDATE `sign_user` SET `number`='500' WHERE ( id=1 ) [ RunTime:0.0652s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_user` SET `grade`='2' WHERE ( id=1 ) [ RunTime:0.0434s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `sign_experience` SET `number`='600' WHERE ( uid=2 ) [ RunTime:0.0441s ]
+SQL: UPDATE `sign_user` SET `number`='600' WHERE ( id=2 ) [ RunTime:0.0439s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_user` SET `grade`='3' WHERE ( id=2 ) [ RunTime:0.0444s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001478s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001520s ]
+
+[ 2018-05-03T23:02:59+08:00 ] ::1 /sign/index.php/Home/number/number/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001171s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001219s ]
+SQL: SELECT * FROM `sign_order`  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sign_order` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `sign_experience` SET `number`='500' WHERE ( uid=1 ) [ RunTime:0.1452s ]
+SQL: UPDATE `sign_user` SET `number`='500' WHERE ( id=1 ) [ RunTime:0.0436s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_user` SET `grade`='2' WHERE ( id=1 ) [ RunTime:0.0786s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `sign_experience` SET `number`='600' WHERE ( uid=2 ) [ RunTime:0.0307s ]
+SQL: UPDATE `sign_user` SET `number`='600' WHERE ( id=2 ) [ RunTime:0.0435s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( uid=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_user` SET `grade`='3' WHERE ( id=2 ) [ RunTime:0.0445s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=5 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `sign_experience` SET `number`='100' WHERE ( uid=5 ) [ RunTime:0.0427s ]
+SQL: UPDATE `sign_user` SET `number`='100' WHERE ( id=5 ) [ RunTime:0.0685s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( uid=5 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_user` SET `grade`='1' WHERE ( id=5 ) [ RunTime:0.0659s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `sign_experience` SET `number`='500' WHERE ( uid=1 ) [ RunTime:0.0765s ]
+SQL: UPDATE `sign_user` SET `number`='500' WHERE ( id=1 ) [ RunTime:0.2235s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_user` SET `grade`='2' WHERE ( id=1 ) [ RunTime:0.0734s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_experience` SET `number`='600' WHERE ( uid=2 ) [ RunTime:0.0427s ]
+SQL: UPDATE `sign_user` SET `number`='600' WHERE ( id=2 ) [ RunTime:0.0448s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( uid=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_user` SET `grade`='3' WHERE ( id=2 ) [ RunTime:0.0433s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001714s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001767s ]
+
+[ 2018-05-03T23:03:22+08:00 ] ::1 /sign/index.php/Home/number/number/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001429s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001885s ]
+SQL: SELECT * FROM `sign_order`  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sign_order` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `sign_experience` SET `number`='500' WHERE ( uid=1 ) [ RunTime:0.0713s ]
+SQL: UPDATE `sign_user` SET `number`='500' WHERE ( id=1 ) [ RunTime:0.0435s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_user` SET `grade`='2' WHERE ( id=1 ) [ RunTime:0.0430s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=2 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `sign_experience` SET `number`='600' WHERE ( uid=2 ) [ RunTime:0.0434s ]
+SQL: UPDATE `sign_user` SET `number`='600' WHERE ( id=2 ) [ RunTime:0.0436s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( uid=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_user` SET `grade`='3' WHERE ( id=2 ) [ RunTime:0.0442s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=5 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `sign_experience` SET `number`='100' WHERE ( uid=5 ) [ RunTime:0.0424s ]
+SQL: UPDATE `sign_user` SET `number`='100' WHERE ( id=5 ) [ RunTime:0.0447s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( uid=5 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_user` SET `grade`='2' WHERE ( id=5 ) [ RunTime:0.0431s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_experience` SET `number`='500' WHERE ( uid=1 ) [ RunTime:0.0439s ]
+SQL: UPDATE `sign_user` SET `number`='500' WHERE ( id=1 ) [ RunTime:0.0436s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_user` SET `grade`='2' WHERE ( id=1 ) [ RunTime:0.0444s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=2 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `sign_experience` SET `number`='600' WHERE ( uid=2 ) [ RunTime:0.0423s ]
+SQL: UPDATE `sign_user` SET `number`='600' WHERE ( id=2 ) [ RunTime:0.0448s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( uid=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_user` SET `grade`='3' WHERE ( id=2 ) [ RunTime:0.0433s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002515s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002571s ]
+
+[ 2018-05-03T23:03:24+08:00 ] ::1 /sign/index.php/Home/Index/yonghuliebiao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001173s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001222s ]
+SQL: SELECT * FROM `sign_user`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015364s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015427s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001125s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001162s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002046s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002114s ]
+
+[ 2018-05-03T23:03:30+08:00 ] ::1 /sign/index.php/Home/Index/yonghuliebiao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000848s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001466s ]
+SQL: SELECT * FROM `sign_user`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022478s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022542s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001223s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001268s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002064s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002132s ]
+
+[ 2018-05-03T23:03:33+08:00 ] ::1 /sign/index.php/Home/Index/yonghuliebiao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001160s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001211s ]
+SQL: SELECT * FROM `sign_user`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015569s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015630s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001075s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001113s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001379s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001432s ]
+
+[ 2018-05-03T23:03:40+08:00 ] ::1 /sign/index.php/Home/Index/yonghuliebiao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000749s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002008s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002088s ]
+SQL: SELECT * FROM `sign_user`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017380s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017440s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001179s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001216s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010644s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010704s ]
+
+[ 2018-05-03T23:03:44+08:00 ] ::1 /sign/index.php/Home/number/number/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001371s ]
+SQL: SELECT * FROM `sign_order`  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sign_order` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `sign_experience` SET `number`='500' WHERE ( uid=1 ) [ RunTime:0.0703s ]
+SQL: UPDATE `sign_user` SET `number`='500' WHERE ( id=1 ) [ RunTime:0.0425s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_user` SET `grade`='2' WHERE ( id=1 ) [ RunTime:0.0446s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_experience` SET `number`='600' WHERE ( uid=2 ) [ RunTime:0.0424s ]
+SQL: UPDATE `sign_user` SET `number`='600' WHERE ( id=2 ) [ RunTime:0.0450s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( uid=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_user` SET `grade`='3' WHERE ( id=2 ) [ RunTime:0.0431s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=5 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `sign_experience` SET `number`='100' WHERE ( uid=5 ) [ RunTime:0.0556s ]
+SQL: UPDATE `sign_user` SET `number`='100' WHERE ( id=5 ) [ RunTime:0.0311s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( uid=5 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_user` SET `grade`='1' WHERE ( id=5 ) [ RunTime:0.0444s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_experience` SET `number`='500' WHERE ( uid=1 ) [ RunTime:0.0422s ]
+SQL: UPDATE `sign_user` SET `number`='500' WHERE ( id=1 ) [ RunTime:0.0448s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( uid=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_user` SET `grade`='2' WHERE ( id=1 ) [ RunTime:0.0432s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT SUM(price) AS tp_sum FROM `sign_order` WHERE ( uid=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_experience` SET `number`='600' WHERE ( uid=2 ) [ RunTime:0.0435s ]
+SQL: UPDATE `sign_user` SET `number`='600' WHERE ( id=2 ) [ RunTime:0.0435s ]
+SQL: SELECT * FROM `sign_experience` WHERE ( uid=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `sign_user` SET `grade`='3' WHERE ( id=2 ) [ RunTime:0.1441s ]
+SQL: SELECT * FROM `sign_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002547s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002662s ]
+
+[ 2018-05-03T23:03:45+08:00 ] ::1 /sign/index.php/Home/Index/yonghuliebiao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000544s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001432s ]
+SQL: SELECT * FROM `sign_user`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022025s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022114s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002221s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002296s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002319s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002408s ]
+

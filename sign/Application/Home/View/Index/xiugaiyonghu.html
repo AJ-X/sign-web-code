@@ -1,0 +1,108 @@
+<!doctype html>
+<html class="no-js">
+<head>
+<meta charset="utf-8">
+<title>修改用户</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="renderer" content="webkit">
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<meta name="apple-mobile-web-app-title" content="Amaze UI" />
+<link rel="stylesheet" href="__ROOT__/Public/index/assets/css/amazeui.min.css"/>
+<link rel="stylesheet" href="__ROOT__/Public/index/assets/css/admin.css">
+<script src="__ROOT__/Public/index/assets/js/jquery.min.js"></script>
+<script src="__ROOT__/Public/index/assets/js/app.js"></script>
+</head>
+<body>
+</head>
+
+<body>
+<include file="Common:head"/>
+
+<div class="am-cf admin-main"> 
+
+<include file="Common:left"/>
+
+<div class=" admin-content">
+
+<div class="admin-biaogelist">
+  
+    <div class="listbiaoti am-cf">
+      <ul class="am-icon-flag on"> 修改用户</ul>
+      
+      <dl class="am-icon-home" style="float: right;"> 当前位置： 修改用户 > <a href="{:U('index/main')}">首页</a></dl>
+    </div>
+  
+    <div class="fbneirong">
+      <form class="am-form" enctype="multipart/form-data" action="{:U('yonghuxiugai')}" method="post">
+        <input type="hidden" name="id" class="am-input-sm" id="doc-ipt-email-1" value="{$re.id}">
+        <div class="am-form-group am-cf">
+          <div class="zuo">用户名:</div>
+          <div class="you">
+            <input type="text" name="username" class="am-input-sm" id="doc-ipt-email-1" value="{$re.username}">
+          </div>
+        </div>
+        <div class="am-form-group am-cf">
+          <div class="zuo">手机:</div>
+          <div class="you">
+            <input type="tel" name="phone" class="am-input-sm" id="doc-ipt-pwd-1" value="{$re.phone}">
+          </div>
+        </div>
+        <div class="am-form-group am-cf">
+          <div class="zuo">邮箱:</div>
+          <div class="you">
+            <input type="email" name="email" class="am-input-sm" id="doc-ipt-pwd-1" value="{$re.email}">
+          </div>
+        </div>
+        <div class="am-form-group am-cf">
+          <div class="zuo">QQ:</div>
+          <div class="you">
+            <input type="text" name="qq" class="am-input-sm" id="doc-ipt-pwd-1" value="{$re.qq}">
+          </div>
+        </div>
+        <div class="am-form-group am-cf">
+          <div class="zuo">微信:</div>
+          <div class="you">
+            <input type="text" name="wechat" class="am-input-sm" id="doc-ipt-pwd-1" value="{$re.wechat}">
+          </div>
+        </div>
+        <div class="am-form-group am-cf">
+          <div class="zuo">微博:</div>
+          <div class="you">
+            <input type="text" name="weibo" class="am-input-sm" id="doc-ipt-pwd-1" value="{$re.weibo}">
+          </div>
+        </div>
+        <div class="am-form-group am-cf">
+          <div class="zuo">积分:</div>
+          <div class="you">
+            <input type="text" name="number" class="am-input-sm" id="doc-ipt-pwd-1" value="{$re.number}">
+          </div>
+        </div>
+        <div class="am-form-group am-cf">
+          <div class="zuo">等级:</div>
+          <div class="you">
+            <input type="text" name="grade" class="am-input-sm" id="doc-ipt-pwd-1" value="{$re.grade}">
+          </div>
+        </div>
+        <div class="am-form-group am-cf">
+          <div class="zuo">头像:</div>
+          <div class="you">
+            <input type="file" name="img" class="am-input-sm" id="doc-ipt-pwd-1" value="{$re.img}">
+          </div>
+        </div>
+        <div class="am-form-group am-cf">
+          <div class="you" style="margin-left: 11%;">
+              <button type="submit" class="am-btn am-btn-success am-radius">修改</button>&nbsp;  &raquo; &nbsp; <button type="reset" class="am-btn am-btn-secondary am-radius">重置</button>
+          </div>
+        </div>
+      </form>
+    </div> 
+ <div class="foods">
+      <ul>标记后台管理系统</ul>
+      <dl><a href="" title="返回头部" class="am-icon-btn am-icon-arrow-up"></a></dl>    
+    </div>
+</div>
+</div>
+</div>
+<script src="__ROOT__/Public/index/assets/js/amazeui.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,107 @@
+<!doctype html>
+<html class="no-js">
+<head>
+<meta charset="utf-8">
+<title>用户列表</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="renderer" content="webkit">
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<meta name="apple-mobile-web-app-title" content="Amaze UI" />
+<link rel="stylesheet" href="__ROOT__/Public/index/assets/css/amazeui.min.css"/>
+<link rel="stylesheet" href="__ROOT__/Public/index/assets/css/admin.css">
+<script src="__ROOT__/Public/index/assets/js/jquery.min.js"></script>
+<script src="__ROOT__/Public/index/assets/js/app.js"></script>
+</head>
+<body>
+</head>
+
+<body>
+<include file="Common:head"/>
+
+<div class="am-cf admin-main"> 
+
+<include file="Common:left"/>
+<div class="admin-biaogelist">
+
+    <div class="listbiaoti am-cf">
+      <ul class="am-icon-flag on">用户信息管理</ul>
+      
+      <dl class="am-icon-home" style="float: right;"> 当前位置： 用户列表 > <a href="{:U('index/main')}">首页</a></dl>
+    </div>
+
+    <form class="am-form am-g" action="{:U('yonghuliebiao')}" method="post">
+          <table width="100%" class="am-table am-table-bordered am-table-radius am-table-striped">
+            <thead>
+              <tr class="am-success">
+                <th class="table-title">用户名</th>
+                <th class="table-type">手机</th>
+                <th class="table-author am-hide-sm-only">邮箱</th>
+                <th class="table-date am-hide-sm-only">QQ</th>
+                <th class="table-date am-hide-sm-only">微信</th>
+                <th class="table-author am-hide-sm-only">微博</th>
+                <th class="table-date am-hide-sm-only">积分</th>
+                <th class="table-date am-hide-sm-only">等级</th>
+                <th class="table-date am-hide-sm-only">头像</th>
+                <th width="163px" class="table-set">操作</th>
+              </tr>
+            </thead>
+            <tbody>
+            <volist name="re" id="er">
+             <tr>
+                <td>{$er.username}</td>
+                <td>{$er.phone}</td>
+                <td class="am-hide-sm-only">{$er.email}</td>
+                <td class="am-hide-sm-only">{$er.qq}</td>
+                <td class="am-hide-sm-only">{$er.wechat}</td>
+                <td class="am-hide-sm-only">{$er.weibo}</td>
+                <td class="am-hide-sm-only">{$er.number}</td>
+                <td class="am-hide-sm-only">{$er.grade}</td>
+                <td class="am-hide-sm-only"><img style="width: 40%;height: 40%;" src="__ROOT__/Public/{$er.img}"></td>
+                <td><div class="am-btn-toolbar">
+                    <div class="am-btn-group am-btn-group-xs">
+                      <a href="{:U('xiugaiyonghu',array('id'=>$er['id']))}"><button name="{$er.id}" type="button" title="修改用户" class="am-btn am-btn-default am-btn-xs am-text-success am-round"><span class="am-icon-pencil-square-o"></span> </button></a>
+                      <a href="#"><button name="shanchu" type="button" id="{$er.id}" title="删除用户" class="am-btn am-btn-default am-btn-xs am-text-danger am-round"><span class="am-icon-trash-o"></span></button></a>
+                    </div>
+                  </div></td>
+              </tr>
+            </volist>            
+            </tbody>
+          </table>
+          <div class="am-btn-group am-btn-group-xs">
+            </div>
+        <hr />
+          <p>
+        备注：操作图标含义
+         <a class="am-text-success am-icon-file" title="修改用户"> 修改用户</a> 
+         <a class="am-icon-trash-o am-text-danger" title="删除"> 删除用户</a>
+        </p>
+        </form>
+ 
+<div class="foods">
+      <ul>标记后台管理系统</ul>
+      <dl><a href="" title="返回头部" class="am-icon-btn am-icon-arrow-up"></a></dl>    
+    </div>
+</div>
+</div>
+</div>
+</body>
+<script src="__ROOT__/Public/index/assets/js/amazeui.min.js"></script>
+<script type="text/javascript">
+ $(".am-text-danger").click(function(){
+   $(this).parents('tr').css('display','none');  
+  })
+  $(".am-text-danger").click(function(){
+      var id=$(this).attr('id');     
+        $.ajax({  
+                url:"{:U('shanchuyonghu')}",  
+                type:"post",  
+//            async:false,//同步  
+                data:{"id":id},//传出的数据  
+                dataType:"json",//返回的数据类型，常用：html/text/json  
+                success:function(data){ 
+                   alert($data);                      
+                }  
+            })     
+  }) 
+</script>
+</html>

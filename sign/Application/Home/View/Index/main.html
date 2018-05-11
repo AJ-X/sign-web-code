@@ -1,0 +1,41 @@
+<!doctype html>
+<html class="no-js">
+<head>
+<meta charset="utf-8">
+<title>标记后台管理系统</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="renderer" content="webkit">
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<meta name="apple-mobile-web-app-title" content="Amaze UI" />
+<link rel="stylesheet" href="__ROOT__/Public/index/assets/css/amazeui.min.css"/>
+<link rel="stylesheet" href="__ROOT__/Public/index/assets/css/admin.css">
+<script src="__ROOT__/Public/index/assets/js/jquery.min.js"></script>
+<script src="__ROOT__/Public/index/assets/js/app.js"></script>
+</head>
+<body>
+</head>
+
+<body>
+<include file="Common:head"/>
+
+<div class="am-cf admin-main"> 
+
+<include file="Common:left"/>
+
+<div class=" admin-content">
+
+<div class="admin" style="margin-top: -35px;">
+    <div class="admin-biaoge" style="width: 90%;margin-top: 20%;margin-left: 5%;">
+           <h1 style="text-align: center;">标记后台管理系统</h1>
+           <h2 style="text-align: center;">管理员：{$Think.session.adminname} 您好！</h2>
+           <h3 style="text-align: center;">登录时间：{$Think.session.time|date="Y-m-d H:i:s",###}</h3>
+      </div>
+    </div>
+      <script type="text/javascript">jQuery(".slideTxtBox").slide();</script>    
+</div>
+</div>
+</div>
+</div> 
+<script src="__ROOT__/Public/index/assets/js/amazeui.min.js"></script>
+</body>
+</html>

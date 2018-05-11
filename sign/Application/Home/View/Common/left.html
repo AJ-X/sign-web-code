@@ -1,0 +1,48 @@
+<div class="nav-navicon admin-main admin-sidebar">
+    
+    
+    <div class="sideMenu am-icon-dashboard" style="color:#aeb2b7; margin: 10px 0 0 0;"> 欢迎系统管理员：{$Think.session.adminname} <a href="{:U('index/index')}" style="color: #aeb2b7;">注销</a></div>
+    <div class="sideMenu">
+      <h3 class="am-icon-flag"><em></em> <a href="#">用户信息管理</a></h3>
+      <ul style="list-style: none;">
+        <li><a href=""><a href="{:U('yonghuliebiao')}">用户列表</a></a></li>
+      </ul>
+
+      <h3 class="am-icon-users"><em></em> <a href="#">收货地址管理</a></h3>
+      <ul style="list-style: none;">
+        <li><a href="{:U('shouhuoliebiao')}">收货地址列表</a></li>
+        <li><a href="{:U('tianjiashouhuo')}">添加收货地址</a></li>
+      </ul>
+
+      <h3 class="am-icon-cart-plus"><em></em> <a href="#">订单信息管理</a></h3>
+      <ul style="list-style: none;">
+        <li><a href="{:U('dingdanliebiao')}">订单列表</a></li>
+        <li><a href="{:U('wuliuliebiao')}">物流列表</a></li>
+      </ul>
+
+      <h3 class="am-icon-volume-up"><em></em> <a href="#">售后信息管理</a></h3>
+      <ul style="list-style: none;">
+        <li><a href="{:U('shenqingliebiao')}">售后申请列表</a></li>
+        <li><a href="{:U('jinduliebiao')}">进度列表</a></li>
+      </ul>
+
+      <h3 class="am-icon-gears"><em></em> <a href="#">耗材信息管理</a></h3>
+      <ul style="list-style: none;">
+        <li><a href="{:U('haocailiebiao')}">耗材列表</a></li>
+        <li><a href="{:U('tianjiahaocai')}">添加耗材</a></li>
+      </ul>
+
+    </div>
+    
+    <script type="text/javascript">
+      jQuery(".sideMenu").slide({
+        titCell:"h3", //鼠标触发对象
+        targetCell:"ul", //与titCell一一对应，第n个titCell控制第n个targetCell的显示隐藏
+        effect:"slideDown", //targetCell下拉效果
+        delayTime:300 , //效果时间
+        triggerTime:150, //鼠标延迟触发时间（默认150）
+        defaultPlay:true,//默认是否执行效果（默认true）
+        returnDefault:true //鼠标从.sideMen移走后返回默认状态（默认false）
+        });
+    </script>    
+</div>
